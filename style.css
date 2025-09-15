@@ -1,0 +1,63 @@
+/*generella förändringar*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f7f6f1;
+}
+/*navbar styling*/
+nav {
+    background-color: #f7f6f1;
+    color: #e7d0a8;
+}
+/*första bildens styling (här kommer jag behöva mer hjälp för att förstå vad det är jag har gjort och vad som gör vad*/
+img {
+    width: 100%;
+}
+#andasdinsanning .image-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+#andasdinsanning img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#andasdinsanning img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* overlay */
+/*#andasdinsanning .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f7f6f1;
+}
+*/
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    color: #7a8631;
+    background-color: #f7f6f1;
+
+    padding: 5rem;
+}
+
+/*coral=f46249
+beige= d4ae6f
+ljus beige= e7d0a8
+grön=#7a8631
+nästan vit=f7f6f1
+*/

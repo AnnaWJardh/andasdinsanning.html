@@ -16,43 +16,96 @@
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"
         ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Marcellus&family=Noto+Sans+JP:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Andas din sanning</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a
-                                class="nav-link active"
-                                aria-current="page"
-                                href="#"
-                                >Hem</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tjanster.html"
-                                >Tjänster</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="kontakt.html">Kontakt</a>
-                        </li>
-                    </ul>
-                </div>
+        <!--Navbar tjänster-->
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <a class="navbar-brand" href="index.html">Andas din sanning</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="index.html"
+                            >Hem</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tjanster.html">Tjänster</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
             </div>
         </nav>
+        <!--Container för tjänster-->
+        <div id="container">
+            <div>
+                <h1 class="container" id="my-services">Mina tjänster:</h1>
+            </div>
+
+            <div class="container" id="free-call">
+                <h2>Boka ditt kostnadsfria vägledande samtal!</h2>
+                <p>
+                    Under 15 minuter får du möjlighet att berätta om dina behov
+                    och önskemål. Tillsammans utforskar vi vilken av mina
+                    tjänster som kan stödja dig bäst på din resa mot mer
+                    närvaro, balans och välmående.
+                </p>
+            </div>
+
+            <div class="container" id="breathwork-group">
+                <h2>Breathwork-session i grupp</h2>
+                <p>
+                    En kraftfull upplevelse där vi använder andningen för att
+                    frigöra känslor, stress och blockeringar. Du får landa i dig
+                    själv och släppa det som inte längre tjänar dig.
+                </p>
+                <p>💸 Pris: 500:-/person</p>
+            </div>
+
+            <div class="container" id="onetoone">
+                <h2>1:1 Coaching</h2>
+                <p>
+                    Personlig coachning där vi utforskar dina mål, blockeringar
+                    och inre längtan. Jag hjälper dig att se vad som håller dig
+                    tillbaka och guidar dig mot mer frihet och självkärlek.
+                </p>
+                <p>💸 Pris: 888:-/60 min</p>
+            </div>
+
+            <div class="container" id="coachandguide">
+                <h2>1:1 Breathwork & vägledning</h2>
+                <p>
+                    En individuell session där du får min fulla guidning i
+                    andningen. Här skapar vi trygghet, utrymme för djup läkning
+                    och transformation utifrån just dina behov. Andningen
+                    hjälper dig öppna upp utrymmen inom dig, en bro mellan
+                    kroppen sinnet och själen. Här får du också vägledning att
+                    integrera din upplevelse.
+                </p>
+                <p>💸 Pris: 1111:- /75 min</p>
+            </div>
+        </div>
+        <!--Footer tjänster-->
     </body>
 </html>

@@ -179,7 +179,6 @@ main {
     background-color: #f7f6f1;
     color:#5b6614;
     font-family: 'Marcellus', serif;
-    padding-top: 2rem;
 }
 
 
@@ -192,17 +191,8 @@ main {
     padding-top: 2rem;
  }
 
-#contact{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10% 80% 10%;
-    grid-template-areas:
-    'contact-nav'
-    'contact-sec'
-    'contact-foot'
-    ;
-}
 
+ /*Färger*/
 /*coral=f46249
 beige= d4ae6f
 ljus beige= e7d0a8
